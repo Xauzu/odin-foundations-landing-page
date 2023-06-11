@@ -91,9 +91,41 @@ a {
     border-color: red;
 }
 
-.header, .subcontent, .footer {
+.header, .main, .subcontent, .footer {
     padding-left: 10%;
+    padding-top: 32px;
+    padding-bottom: 32px;
     padding-right: 10%;
+}
+
+.main {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.flexleft, .flexright {
+    flex: 1;
+    padding: 32px;
+}
+
+.flexleft {
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 32px;
+    color:#E5E7EB;
+    margin: 8px 0px;
+}
+
+.flexright {
+    display: flex;
+    background-color: grey;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .subcontent {
@@ -104,12 +136,18 @@ a {
 
 .row-align {
     display: flex;
-    gap: 16px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .data-text {
     font-size: 16px;
     padding: 8px;
+}
+
+.informationHeader {
+    text-align: center;
+    margin-bottom: 48px;
 }
 
 .content-data > img {
@@ -124,9 +162,5 @@ a {
     justify-items: center;
     align-items: center;
     text-align: center;
-    padding: 3%;
-}
-
-.informationHeader {
-    text-align: center;
+    margin: 3%;
 }
