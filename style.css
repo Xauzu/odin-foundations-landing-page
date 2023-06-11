@@ -31,7 +31,7 @@ body {
     color: #F9FAF8;
 }
 
-button, .callToAction {
+button, .blue-box {
     background-color: #3882F6;
 }
 
@@ -110,6 +110,7 @@ button {
     padding: 8px 32px;
     color:#E5E7EB;
     margin: 8px 0px;
+    border-color: #3882F6;
 }
 
 .flexright {
@@ -155,7 +156,6 @@ button {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    align-items: center;
     text-align: center;
     margin: 3%;
 }
@@ -178,4 +178,44 @@ button {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.blue-box {
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    align-items: center;
+    border-radius: 8px;
+}
+
+.callToAction {
+    flex: 2;
+    color: #E5E7EB;
+    text-align: left;
+}
+
+.ctaTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subButton {
+    flex: 1;
+}
+
+.subButton > button {
+    border-color: #E5E7EB;
+}
+
+.content-data2 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    margin: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
