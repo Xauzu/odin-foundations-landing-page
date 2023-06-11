@@ -28,6 +28,10 @@ body {
     color: #F9FAF8;
 }
 
+.footer-text {
+    color: #F9FAF8;
+}
+
 button, .callToAction {
     background-color: #3882F6;
 }
@@ -50,8 +54,6 @@ button, .callToAction {
 
 .header, .content, .footer {
     display: flex; 
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .header {
@@ -83,4 +85,49 @@ button, .callToAction {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.footer {
+    justify-content: center;
+    border-color: red;
+}
+
+.header, .subcontent, .footer {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.subcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row-align {
+    display: flex;
+    gap: 16px;
+}
+
+.data-text {
+    font-size: 16px;
+    padding: 8px;
+}
+
+.content-data > img {
+    max-width: 100%;
+    border-radius: 25px;
+    border: 3px solid #3882F6;
+}
+
+.content-data {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+}
+
+.informationHeader {
+    text-align: center;
 }
