@@ -9,6 +9,7 @@ body {
 
 .header, .footer {
     background-color: #1F2937;
+    padding: 16px;
 }
 
 .main-text {
@@ -45,4 +46,41 @@ button, .callToAction {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.header, .content, .footer {
+    display: flex; 
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.content {
+    flex-direction: column;
+}
+
+.logo > img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.logo, .right-links {
+    display: flex;
+    align-items: center;
+}
+
+.right-links {
+    list-style: none;
+    flex: right;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
