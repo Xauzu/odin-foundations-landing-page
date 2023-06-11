@@ -7,7 +7,42 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .logo-text {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+button, .callToAction {
+    background-color: #3882F6;
+}
+
+.informationHeader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quoteContent {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
